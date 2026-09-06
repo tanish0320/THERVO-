@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────────
+# AI-Driven Predictive Cooling System — Runtime Requirements
+# ─────────────────────────────────────────────────────────────────
+# Install: uv pip install -r requirements.txt
+#
+# PRODUCTION RUNTIME (src/):
+#   numpy, pandas, psutil, xgboost, joblib, scikit-learn
+#
+# TRAINING PIPELINE (training/):
+#   All of the above + scikit-learn (for train_test_split, metrics)
+#
+# RESEARCH/NON-PRODUCTION (training/research/):
+#   torch, torch-geometric  ← NOT required for runtime
+#   Install separately: pip install torch torch-geometric
+# ─────────────────────────────────────────────────────────────────
+
+# ── Core runtime (REQUIRED for src/ to run) ───────────────────────
+numpy
+pandas
+psutil
+requests
+xgboost
+joblib
+scikit-learn
+
+# ── Research / GNN pre-training only (NOT loaded by runtime) ──────
+# Uncomment to enable training/research/gnn_model.py:
+torch
+# torch-geometric

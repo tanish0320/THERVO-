@@ -1,0 +1,807 @@
+{
+  "schema_version": "1.0",
+  "source": "gemini-cli",
+  "agent": "Gemini CLI (0.49.0)",
+  "project": "Thervo \u2014 AI-Driven Sensor-Free Predictive Cooling",
+  "repository": "https://github.com/tanish0320/Thervo---Predictive-Cooling",
+  "reasoning_included": false,
+  "total_selected_sessions": 12,
+  "total_excluded_sessions": 121,
+  "total_trajectory_steps": 2575,
+  "total_tool_calls": 1148,
+  "selected_sessions": [
+    {
+      "session_id": "17451884-d77e-49a1-bb48-6c9424b2453a",
+      "created_at": "2026-08-16T09:13:32Z",
+      "size_kb": 55.9,
+      "total_steps": 52,
+      "matched_keywords": [
+        "heat proxy",
+        "cooling project",
+        "predictive cooling",
+        "sensor-free",
+        "thervo"
+      ],
+      "initial_prompt": "<USER_REQUEST> run the project </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-08-16T14:43:32+05:30. </ADDITIONAL_METADATA> <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 3.6 Flash (Medium). No need to comment on this change if the user do"
+    },
+    {
+      "session_id": "53c96105-2fe9-4d39-bc26-8043c9d91446",
+      "created_at": "2026-08-10T09:34:18Z",
+      "size_kb": 19.2,
+      "total_steps": 22,
+      "matched_keywords": [
+        "cooling project",
+        "sensor-free",
+        "predictive cooling",
+        "thervo"
+      ],
+      "initial_prompt": "<USER_REQUEST> run ts </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-08-10T15:04:18+05:30. </ADDITIONAL_METADATA> <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 3.6 Flash (Medium). No need to comment on this change if the user doesn't ask"
+    },
+    {
+      "session_id": "5c79688a-fdb3-45b0-b45a-fc564ccfdb14",
+      "created_at": "2026-08-06T15:29:26Z",
+      "size_kb": 56.8,
+      "total_steps": 35,
+      "matched_keywords": [
+        "cooling project",
+        "predictive cooling",
+        "sensor-free"
+      ],
+      "initial_prompt": "<USER_REQUEST> >Inference Latency >Preprocessing Latency >End-to-End Pipeline Latency >Forecast Lead Time >RMSE >MAE >SLA Compliance >Target/SLA for each metric >Status (Pass/Fail) for each metric </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-08-06T20:59:26+05:30. </ADDITIONA"
+    },
+    {
+      "session_id": "6fdb2e3f-d3d4-4d34-951f-0f0f021040ed",
+      "created_at": "2026-07-20T08:04:05Z",
+      "size_kb": 146.2,
+      "total_steps": 145,
+      "matched_keywords": [
+        "cooling-project",
+        "cooling project",
+        "predictive cooling",
+        "sensor-free",
+        "adithyak3106/cooling-project"
+      ],
+      "initial_prompt": "<USER_REQUEST> clone this repo and get it working https://github.com/AdithyaK3106/Cooling-Project.git </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-07-20T13:34:05+05:30. </ADDITIONAL_METADATA> <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemi"
+    },
+    {
+      "session_id": "8bce687c-45ed-4173-8b16-3448452d74e0",
+      "created_at": "2026-08-02T13:25:25Z",
+      "size_kb": 566.7,
+      "total_steps": 451,
+      "matched_keywords": [
+        "tanish0320/thervo",
+        "heat proxy",
+        "cooling-project",
+        "predictive cooling",
+        "cooling project",
+        "sensor-free",
+        "adithyak3106/cooling-project",
+        "thervo"
+      ],
+      "initial_prompt": "<USER_REQUEST> pull this repo https://github.com/tanish0320/Thervo.git </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-08-02T18:55:25+05:30. </ADDITIONAL_METADATA> <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 3.6 Flash (Medium). No need "
+    },
+    {
+      "session_id": "92a96061-f227-4a2a-bde7-d276971f0fcb",
+      "created_at": "2026-08-23T05:48:23Z",
+      "size_kb": 88.5,
+      "total_steps": 69,
+      "matched_keywords": [
+        "xgboost thermal-risk",
+        "tanish0320/thervo",
+        "heat proxy",
+        "thermal context",
+        "tanish0320/thervo---predictive-cooling",
+        "cooling project",
+        "predictive cooling",
+        "sensor-free",
+        "thervo"
+      ],
+      "initial_prompt": "<USER_REQUEST> @[revenger hacks.pptx] I am attaching the current large PowerPoint presentation for our project THervo.  I want you to REDESIGN AND CONDENSE this presentation into a powerful 6\u20138 slide pitch deck.  DO NOT simply shorten the text.  I want you to rethink the presentation around a much s"
+    },
+    {
+      "session_id": "c3f12be2-1388-49cc-a6e2-01a9170bbf83",
+      "created_at": "2026-08-22T18:19:36Z",
+      "size_kb": 118.4,
+      "total_steps": 93,
+      "matched_keywords": [
+        "tanish0320/thervo",
+        "heat proxy",
+        "thermal context",
+        "tanish0320/thervo---predictive-cooling",
+        "cooling project",
+        "predictive cooling",
+        "sensor-free",
+        "thervo"
+      ],
+      "initial_prompt": "<USER_REQUEST> Create a polished, emotionally powerful, competition-ready PowerPoint presentation for our project:  THervo AI-Driven Sensor-Free Predictive Cooling  GitHub repository: https://github.com/tanish0320/Thervo---Predictive-Cooling  This presentation is for a hackathon / innovation competi"
+    },
+    {
+      "session_id": "db03d836-df02-4e12-83ca-d0e49c61dd69",
+      "created_at": "2026-08-18T08:11:09Z",
+      "size_kb": 59.1,
+      "total_steps": 46,
+      "matched_keywords": [
+        "cooling-project",
+        "predictive cooling",
+        "cooling project",
+        "sensor-free",
+        "thervo"
+      ],
+      "initial_prompt": "<USER_REQUEST> Create a polished 10-slide investor/hackathon-style presentation for our project \"Thervo\", an AI-driven, sensor-free predictive cooling system for data centers.  The presentation is for the Yuva Yodha Tech Challenge under the \"Smart Buildings\" challenge. The goal is to present Thervo "
+    },
+    {
+      "session_id": "dbbf04d5-a7bc-450b-8bc3-d0eb9071d1db",
+      "created_at": "2026-08-22T15:11:28Z",
+      "size_kb": 613.7,
+      "total_steps": 509,
+      "matched_keywords": [
+        "tanish0320/thervo",
+        "heat proxy",
+        "fix/io-rate-caching",
+        "thermal context",
+        "cooling-project",
+        "tanish0320/thervo---predictive-cooling",
+        "predictive cooling",
+        "cooling project",
+        "sensor-free",
+        "adithyak3106/cooling-project",
+        "thervo"
+      ],
+      "initial_prompt": "<USER_REQUEST> You are working on my AI-Driven Sensor-Free Predictive Cooling System repository.  IMPORTANT: Do NOT blindly rewrite the project. First inspect the entire existing repository and understand what is already implemented. Preserve working functionality. Modify only what is necessary. The"
+    },
+    {
+      "session_id": "e1973f61-75cc-4590-a870-5b5ca9b36f8d",
+      "created_at": "2026-07-31T17:48:27Z",
+      "size_kb": 140.0,
+      "total_steps": 133,
+      "matched_keywords": [
+        "tanish0320/thervo",
+        "cooling-project",
+        "predictive cooling",
+        "cooling project",
+        "sensor-free",
+        "adithyak3106/cooling-project",
+        "thervo"
+      ],
+      "initial_prompt": "<USER_REQUEST> pullhttps://github.com/AdithyaK3106/Cooling-Project.git </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-07-31T23:18:27+05:30. </ADDITIONAL_METADATA> <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 3.6 Flash (Medium). No need "
+    },
+    {
+      "session_id": "f6c1b6cd-728b-4d64-ac98-515488b48cdb",
+      "created_at": "2026-08-02T15:39:48Z",
+      "size_kb": 935.6,
+      "total_steps": 966,
+      "matched_keywords": [
+        "tanish0320/thervo",
+        "fix/io-rate-caching",
+        "cooling-project",
+        "predictive cooling",
+        "cooling project",
+        "sensor-free",
+        "adithyak3106/cooling-project",
+        "thervo"
+      ],
+      "initial_prompt": "<USER_REQUEST> pull this fix/io-rate-caching branch from https://github.com/AdithyaK3106/Cooling-Project.git </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-08-02T21:09:48+05:30. </ADDITIONAL_METADATA> <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None "
+    },
+    {
+      "session_id": "ff272844-fd57-4598-abe4-bafcaad7e956",
+      "created_at": "2026-08-05T07:15:05Z",
+      "size_kb": 71.5,
+      "total_steps": 54,
+      "matched_keywords": [
+        "cooling-project",
+        "predictive cooling",
+        "cooling project",
+        "sensor-free",
+        "thervo"
+      ],
+      "initial_prompt": "<USER_REQUEST> R^2 , MAPE, CPU usage, RAM usage, Throughput, Training time </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-08-05T12:45:05+05:30. </ADDITIONAL_METADATA> <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 3.6 Flash (Medium). No n"
+    }
+  ],
+  "excluded_sessions_summary": [
+    {
+      "session_id": "00ad7a55-dc79-4383-aa73-e19e6e59a003",
+      "start_ts": "2026-07-31T18:20:20Z",
+      "reason": "Belongs to unrelated project (patent attorney)"
+    },
+    {
+      "session_id": "04201275-8970-4268-915f-6c2b31eac798",
+      "start_ts": "2026-07-13T18:01:30Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "070cb43c-c2fc-40f9-af5a-de2cd090d219",
+      "start_ts": "2026-07-30T15:57:07Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "07728c31-bdff-4f4a-9c09-4cbb6e4edc2f",
+      "start_ts": "2026-07-02T14:39:56Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "094a1efb-03c4-496f-9ba5-3a703646f617",
+      "start_ts": "2026-08-11T04:00:01Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "0d3be254-a4f9-474b-9682-c7d5c5680fa2",
+      "start_ts": "2026-07-21T19:04:53Z",
+      "reason": "Belongs to unrelated project (drishti, geosentiment)"
+    },
+    {
+      "session_id": "0e66b3dc-ed88-470e-9bca-5a7bb6c225e9",
+      "start_ts": "2026-07-27T09:05:27Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "1326478e-b7f2-4b82-9e8a-68614ff2efb9",
+      "start_ts": "2026-07-04T08:05:12Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "134cdb38-5818-4302-8642-fd13865777dd",
+      "start_ts": "2026-08-13T08:00:04Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "13c959af-59e2-4c13-9cc9-69ed2eb70dc2",
+      "start_ts": "2026-07-07T06:57:07Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "1644edf2-403d-40cb-aef4-d4908955ee6b",
+      "start_ts": "2026-08-13T18:46:23Z",
+      "reason": "Belongs to unrelated project (geosentiment, sentinel x)"
+    },
+    {
+      "session_id": "18a4681c-9958-4d76-b6d2-085e5a7a8dfa",
+      "start_ts": "2026-08-13T15:36:17Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "1914f3dc-0735-4341-ac68-7e324e3ae406",
+      "start_ts": "2026-08-17T06:59:17Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "19835223-717a-4de9-bd80-41c806a1bca0",
+      "start_ts": "2026-07-15T07:20:02Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "1d8da55a-4d06-4ff4-9c27-ac683c4c258b",
+      "start_ts": "2026-07-04T22:58:24Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "22f22aff-490c-496c-a1d4-971d5e907b68",
+      "start_ts": "2026-07-15T09:39:54Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "25223426-416a-4c42-a4ae-5bc9c02528fb",
+      "start_ts": "2026-07-15T15:31:07Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "252b69fa-734c-4751-94a1-14addd7359a2",
+      "start_ts": "2026-07-25T14:48:51Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "25a92e33-d9d9-4d9c-b1e0-d9cb646ee14d",
+      "start_ts": "2026-07-18T09:40:38Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "26bf7753-6474-40dd-a06f-e5b0abf9745b",
+      "start_ts": "2026-07-06T04:52:02Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "26e9b0cb-36b0-4217-9994-2f73b4942861",
+      "start_ts": "2026-07-03T04:20:33Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "28161609-f45f-4c5d-b4ee-cb12b3b30adf",
+      "start_ts": "2026-08-17T03:58:40Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "2c1edb2c-f408-4e67-b962-31340261c3d5",
+      "start_ts": "2026-07-30T17:10:12Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "2d161bc9-a30b-49ec-8546-cce672acc752",
+      "start_ts": "2026-08-11T04:08:51Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "2d6e548a-b08a-4e58-a76b-2bbef34c235a",
+      "start_ts": "2026-07-18T17:34:21Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "3129c422-e6c8-4a01-87ba-8fc4be541e5c",
+      "start_ts": "2026-08-15T16:07:15Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "34781858-0c0c-415f-be84-e5295f4c2256",
+      "start_ts": "2026-07-13T08:29:20Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "38a8b79e-444f-4046-ad5a-78401ced460e",
+      "start_ts": "2026-08-20T03:51:18Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "3d4598f0-853c-410f-b174-345c31c495b7",
+      "start_ts": "2026-08-12T10:29:26Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "430ab54f-25f8-4490-b9bf-d09603cbdff6",
+      "start_ts": "2026-08-22T04:11:28Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "49d5e486-2fbf-4942-a999-bc9d8a2e8abe",
+      "start_ts": "2026-07-14T11:47:02Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "4e36bd64-11c8-44d1-9cd0-19ebab4397a3",
+      "start_ts": "2026-07-26T13:12:21Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "4fa72533-21ba-4d8a-880b-3195a317283b",
+      "start_ts": "2026-07-20T19:00:48Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "500283af-85ed-4f67-9cd9-c288dbb3f088",
+      "start_ts": "2026-08-12T15:57:34Z",
+      "reason": "Belongs to unrelated project (geosentiment)"
+    },
+    {
+      "session_id": "504324c5-199a-4618-98c2-8bd57ee5ed13",
+      "start_ts": "2026-07-06T04:47:59Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "50f95028-210d-425b-8442-9dce8df978d6",
+      "start_ts": "2026-07-06T04:52:02Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "5163598c-45c0-4934-8d8f-de1eca86d849",
+      "start_ts": "2026-07-27T09:32:01Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "5235f180-61c2-45c5-ac29-4890a1bb3246",
+      "start_ts": "2026-07-10T14:12:02Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "535bb3c1-c93a-4156-90e3-c89b47288b3d",
+      "start_ts": "2026-07-22T17:15:40Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "5389b6d4-15cb-499b-a529-53e202af2c1e",
+      "start_ts": "2026-08-11T05:03:22Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "53aa8b50-e9f4-49a7-bf96-b4c0303bc011",
+      "start_ts": "2026-07-04T12:17:17Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "55c82731-f155-43be-8356-d93f47c2689f",
+      "start_ts": "2026-08-20T17:41:57Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "5d103c41-3b9c-4fcf-9a9c-3173c049ee91",
+      "start_ts": "2026-07-13T06:57:44Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "5e4f6bec-dbb0-4362-9cab-bc969b446cb4",
+      "start_ts": "2026-07-04T11:01:44Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "5e7452d5-9416-48c2-bfab-2b851f6fc5c5",
+      "start_ts": "2026-07-01T16:21:43Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "5ebc8e81-baea-4e28-a780-6ecdd70cf060",
+      "start_ts": "2026-08-16T14:14:27Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "616f3fe6-cc59-4521-a315-5177b5912aec",
+      "start_ts": "2026-08-07T08:25:13Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "61a1b020-28a5-463c-a8e8-e419af36c84e",
+      "start_ts": "2026-08-17T10:46:28Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "61b1a9df-26c0-4634-b953-da8fe6b5dfd6",
+      "start_ts": "2026-08-11T17:59:08Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "65911fd5-61f0-4821-b7b0-073cccdb0019",
+      "start_ts": "2026-07-30T17:47:13Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "6827ccaa-1e88-454e-b88a-906b9251d02f",
+      "start_ts": "2026-08-22T18:31:16Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "6a0b4dbd-2f1f-4f18-a732-1510889e3bdb",
+      "start_ts": "2026-07-22T07:34:28Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "6a5dbd5e-3e91-401d-a1cc-ca6a3c54f699",
+      "start_ts": "2026-08-17T04:53:54Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "6b31b834-5a30-4b72-8eb6-c44b6f637b47",
+      "start_ts": "2026-07-01T08:13:37Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "6b35632c-521e-4fd5-9fa3-d0ae79f3af98",
+      "start_ts": "2026-07-10T15:30:29Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "6fe173d5-df3a-41a6-bb66-9ab136c8330e",
+      "start_ts": "2026-07-04T23:29:43Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "70ad16d8-056c-45e3-a718-2752cd3e022c",
+      "start_ts": "2026-07-04T10:31:17Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "73b48498-04ee-4b77-9205-c3605fe71a30",
+      "start_ts": "2026-07-06T04:47:59Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "76f765b1-2d88-420c-a050-6bcb3a1032f2",
+      "start_ts": "2026-07-04T12:53:39Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "78002836-fa11-47b9-90b4-d7287a6fed7f",
+      "start_ts": "2026-07-18T15:14:19Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "7a3c64f5-eb89-445d-a6cf-1b300892b458",
+      "start_ts": "2026-07-02T16:58:47Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "8129bfdb-2c39-4ad0-8605-bb3434cbbd0c",
+      "start_ts": "2026-08-12T16:04:22Z",
+      "reason": "Belongs to unrelated project (geosentiment)"
+    },
+    {
+      "session_id": "84a086ea-d880-4dac-9cd4-9d734c44e083",
+      "start_ts": "2026-08-07T15:49:52Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "8a580be8-4631-4f8b-89e4-e74e0ff81b37",
+      "start_ts": "2026-08-13T14:34:09Z",
+      "reason": "Belongs to unrelated project (geosentiment)"
+    },
+    {
+      "session_id": "8b562eac-d9b2-4313-b05c-3ad7c3f7bf2f",
+      "start_ts": "2026-07-28T13:28:55Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "8bbc9e01-f551-48dd-b304-ef1b5b1cd4b7",
+      "start_ts": "2026-08-20T16:45:33Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "8c11376f-b607-4a7a-b192-33e1b2b93379",
+      "start_ts": "2026-08-14T17:16:55Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "8f434db2-6097-4b91-be71-9abf78af26b5",
+      "start_ts": "2026-07-14T11:39:23Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "90e9cb69-a41b-4296-95e0-5f26b05eb3c3",
+      "start_ts": "2026-07-29T02:45:34Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "92813c26-d4d6-472a-a278-a98f8489cfe9",
+      "start_ts": "2026-08-01T15:26:23Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "936ed6a7-1d3a-4241-b90e-6bda8dfc53f7",
+      "start_ts": "2026-07-04T05:47:07Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "939d07f7-af79-4eba-96d7-5d51054f6551",
+      "start_ts": "2026-07-02T16:52:13Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "94f47025-3a61-411b-bde0-e424d2b2b052",
+      "start_ts": "2026-08-17T08:33:12Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "9bc02fa1-1818-4bee-b862-f60486049858",
+      "start_ts": "2026-07-22T06:08:07Z",
+      "reason": "Belongs to unrelated project (drishti)"
+    },
+    {
+      "session_id": "9efde52b-caa2-4337-b402-e32d28315d82",
+      "start_ts": "2026-07-06T06:36:07Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "a2c802ca-db71-481a-8d31-1bb121b857bf",
+      "start_ts": "2026-07-04T07:28:03Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "a306c901-2268-4830-999f-c73079fe86c5",
+      "start_ts": "2026-07-14T12:00:22Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "a4657ad3-b23e-4d90-b165-4a244bd4e784",
+      "start_ts": "2026-07-04T20:04:03Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "a9def819-e618-4cb6-9ba0-e0a1b81b40b6",
+      "start_ts": "2026-07-22T15:01:12Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "aac71474-a041-48dc-b4fb-5f34d84ab2b8",
+      "start_ts": "2026-08-07T08:25:18Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "ac8b8d6d-7f7a-4922-8a22-d423836e4e4e",
+      "start_ts": "2026-07-15T15:06:30Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "acf66c00-c7da-4ebf-8d61-a2110e890d95",
+      "start_ts": "2026-08-07T08:25:16Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "ad51161a-9025-4823-8af7-2fd10f48e16f",
+      "start_ts": "2026-07-15T15:07:22Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "af90a204-a286-4a85-a9a7-6cbb1bd0a8f3",
+      "start_ts": "2026-07-14T15:45:21Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "afc5f429-993d-4940-92df-19d5efc3e9f2",
+      "start_ts": "2026-07-01T16:51:31Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "b0110918-574a-4949-a51d-94923e14efd2",
+      "start_ts": "2026-07-05T01:58:36Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "b1aef9a5-6e58-4a77-af19-7d6087cc401c",
+      "start_ts": "2026-08-21T05:47:14Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "b2d60844-a182-4d7f-bb6c-f844a4d305a6",
+      "start_ts": "2026-08-09T19:23:19Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "b4ced53f-c2e1-406e-949d-dfda064ff8a9",
+      "start_ts": "2026-07-01T07:54:29Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "b69a807f-3bb0-4cd5-97d1-34b5854d1ec7",
+      "start_ts": "2026-07-30T15:19:43Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "b6d6326b-3d3e-4fd3-9338-9f8caf41d982",
+      "start_ts": "2026-08-21T13:34:34Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "b812cddc-525d-4c1b-9a43-b4521f52333e",
+      "start_ts": "2026-08-04T12:44:30Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "bab59182-d07f-4189-8c08-a69664b9a756",
+      "start_ts": "2026-07-01T15:57:10Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "be1b9b2d-ac42-4ac6-86d9-67ac0d4133b9",
+      "start_ts": "2026-07-24T09:40:57Z",
+      "reason": "Belongs to unrelated project (drishti, qfdet, geosentiment)"
+    },
+    {
+      "session_id": "be69e517-e522-4892-ab6e-60cd7f88566a",
+      "start_ts": "2026-07-04T09:27:05Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "bfbfad57-9425-42db-bf67-279cf391b4fb",
+      "start_ts": "2026-08-12T16:45:03Z",
+      "reason": "Belongs to unrelated project (geosentiment)"
+    },
+    {
+      "session_id": "c026c808-b579-42a1-950d-6f6b49f2241f",
+      "start_ts": "2026-07-18T10:04:06Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "c1f86270-5d6d-4fcf-969e-c468c134eca9",
+      "start_ts": "2026-07-16T12:18:28Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "c2fdc767-081a-466b-9089-cf752be15845",
+      "start_ts": "2026-07-22T06:08:52Z",
+      "reason": "Belongs to unrelated project (drishti)"
+    },
+    {
+      "session_id": "c307092b-1228-4be4-b476-31b9d575ba1a",
+      "start_ts": "2026-07-14T11:52:50Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "c6833c0f-68da-4869-bd24-37a68eb69eb4",
+      "start_ts": "2026-07-20T09:14:21Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "c72185e4-33d1-4143-9af4-50b22556d238",
+      "start_ts": "2026-07-14T11:38:23Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "c758543b-a1f6-4fe1-a30f-f884c8fa8f8a",
+      "start_ts": "2026-07-14T12:27:52Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "c84ec343-edb8-4726-a462-1e452263f008",
+      "start_ts": "2026-07-04T11:33:39Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "c8a71038-7ebe-45cd-8f42-3d8ee00aa962",
+      "start_ts": "2026-08-13T15:05:10Z",
+      "reason": "Belongs to unrelated project (geosentiment, sentinel x)"
+    },
+    {
+      "session_id": "cd590af6-e6f2-49ae-b40b-d7dfad8a7c63",
+      "start_ts": "2026-07-04T07:14:07Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "d15e4276-d770-4df1-b101-ea7b4a997a61",
+      "start_ts": "2026-07-11T05:16:21Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "d3fff029-46f0-4136-ab26-7b53733c6484",
+      "start_ts": "2026-08-16T14:09:02Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "d42dd212-fd10-412c-8063-0121f92e276c",
+      "start_ts": "2026-07-14T12:10:30Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "d56976ae-1956-446b-9f11-962bb3f41f91",
+      "start_ts": "2026-07-04T10:08:35Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "d6e49ed0-5d30-4210-91b5-8f3705b0b62e",
+      "start_ts": "2026-07-04T12:00:40Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "d91ca3b3-957b-4d87-afc9-018258a86288",
+      "start_ts": "2026-08-23T07:51:19Z",
+      "reason": "Current Trace Commons setup session"
+    },
+    {
+      "session_id": "e52b03a2-96a7-4db7-ba39-11d971f339a8",
+      "start_ts": "2026-07-10T14:12:02Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "eca0e024-6174-47a6-855e-f9cd384c76c0",
+      "start_ts": "2026-07-04T09:39:05Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "ef00c123-4c84-4018-aec0-b5c4c2278b1e",
+      "start_ts": "2026-07-04T23:24:41Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "f238d8fc-818c-4164-af54-a195a4d79a3d",
+      "start_ts": "2026-07-21T10:29:13Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "f8dfc85f-fa66-4d73-af59-c26360c28b56",
+      "start_ts": "2026-07-18T09:05:44Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "f95779ec-baf1-44e8-abb6-0495ce1d81a6",
+      "start_ts": "2026-07-04T11:19:37Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "fc66a96c-cecf-47cb-8e30-d04c12f05219",
+      "start_ts": "2026-08-20T07:00:41Z",
+      "reason": "Unrelated project / non-Thervo session"
+    },
+    {
+      "session_id": "fe6f4c44-1e00-4320-85f2-b1a487387003",
+      "start_ts": "2026-07-24T18:49:30Z",
+      "reason": "Belongs to unrelated project (drishti, qfdet)"
+    },
+    {
+      "session_id": "ff0ed94b-7688-4501-be58-857dad4abe78",
+      "start_ts": "2026-07-13T17:45:34Z",
+      "reason": "Unrelated project / non-Thervo session"
+    }
+  ]
+}

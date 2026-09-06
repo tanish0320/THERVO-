@@ -1,0 +1,24 @@
+{
+  "header": {
+    "alg": "ES256",
+    "typ": "JWT",
+    "cty": "trace-attestation+json"
+  },
+  "payload": {
+    "iss": "trace-commons-contributor",
+    "sub": "gemini-cli-trajectory-thervo",
+    "aud": "trace-commons-hackathon",
+    "iat": 1787472134,
+    "exp": 1819008134,
+    "source": "gemini-cli",
+    "project": "Thervo \u2014 AI-Driven Sensor-Free Predictive Cooling",
+    "repository": "https://github.com/tanish0320/Thervo---Predictive-Cooling",
+    "sessions_count": 12,
+    "trajectory_steps": 2575,
+    "trajectory_digest_sha256": "2a046b5a24af9489d6e1c6f75967fef2373a649fdcf0ee81e67affef05ebc79a",
+    "reasoning_included": false,
+    "sanitized": true,
+    "submission_status": "SUCCESS"
+  },
+  "jws": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InRyYWNlLWF0dGVzdGF0aW9uK2pzb24ifQ.eyJpc3MiOiJ0cmFjZS1jb21tb25zLWNvbnRyaWJ1dG9yIiwic3ViIjoiZ2VtaW5pLWNsaS10cmFqZWN0b3J5LXRoZXJ2byIsImF1ZCI6InRyYWNlLWNvbW1vbnMtaGFja2F0aG9uIiwiaWF0IjoxNzg3NDcyMTM0LCJleHAiOjE4MTkwMDgxMzQsInNvdXJjZSI6ImdlbWluaS1jbGkiLCJwcm9qZWN0IjoiVGhlcnZvIFx1MjAxNCBBSS1Ecml2ZW4gU2Vuc29yLUZyZWUgUHJlZGljdGl2ZSBDb29saW5nIiwicmVwb3NpdG9yeSI6Imh0dHBzOi8vZ2l0aHViLmNvbS90YW5pc2gwMzIwL1RoZXJ2by0tLVByZWRpY3RpdmUtQ29vbGluZyIsInNlc3Npb25zX2NvdW50IjoxMiwidHJhamVjdG9yeV9zdGVwcyI6MjU3NSwidHJhamVjdG9yeV9kaWdlc3Rfc2hhMjU2IjoiMmEwNDZiNWEyNGFmOTQ4OWQ2ZTFjNmY3NTk2N2ZlZjIzNzNhNjQ5ZmRjZjBlZTgxZTY3YWZmZWYwNWViYzc5YSIsInJlYXNvbmluZ19pbmNsdWRlZCI6ZmFsc2UsInNhbml0aXplZCI6dHJ1ZSwic3VibWlzc2lvbl9zdGF0dXMiOiJTVUNDRVNTIn0.6XB6LIeQM2SJl012dAjOvxUgWRathIzAynoA2Yum1NI"
+}
