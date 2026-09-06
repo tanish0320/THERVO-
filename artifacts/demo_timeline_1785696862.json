@@ -1,0 +1,2756 @@
+[
+  {
+    "telemetry": {
+      "cpu_util": 0.0,
+      "gpu_util": 45.0,
+      "mem_util": 76.9,
+      "cpu_temp": 39.8,
+      "gpu_temp": 58.0,
+      "disk_io": 1711420.6128115668,
+      "network_io": 637.8830083558737,
+      "power_draw": 21.44,
+      "battery": 98.0
+    },
+    "risk_score": 0.3400873151421547,
+    "target_rpm": 1850.2182878553867,
+    "actual_rpm": 1850.2182878553867,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 3.2288753986358643,
+      "telemetry_lag_sec": 3.2288753986358643,
+      "memory_growth_bytes": 241393664,
+      "issues": [
+        "Inference stall detected (3.23s lag)",
+        "Telemetry stall detected (3.23s lag)",
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "RISK VELOCITY INCREASING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.6,
+      "smoothed_risk": 0.204,
+      "risk_velocity": 0.2152,
+      "thermal_acceleration": 0.1361,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 3.7,
+      "prediction_stability": 1.0,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "RISK VELOCITY INCREASING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 100.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "BALANCED",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "INIT",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 0.0,
+        "adaptive_hold_duration": 30.0,
+        "hardware_sync_status": "SYNCED",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696865.8191268,
+    "elapsed_sec": 3.5917577743530273
+  },
+  {
+    "telemetry": {
+      "cpu_util": 0.0,
+      "gpu_util": 45.0,
+      "mem_util": 76.8,
+      "cpu_temp": 39.7,
+      "gpu_temp": 58.0,
+      "disk_io": 0.0,
+      "network_io": 0.0,
+      "power_draw": 21.44,
+      "battery": 98.0
+    },
+    "risk_score": 0.341332910656929,
+    "target_rpm": 1853.3322766423225,
+    "actual_rpm": 1853.3322766423225,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.0,
+      "telemetry_lag_sec": 0.0,
+      "memory_growth_bytes": 243650560,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "RISK VELOCITY INCREASING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.6,
+      "smoothed_risk": 0.286,
+      "risk_velocity": 0.2181,
+      "thermal_acceleration": 0.5136,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 3.3,
+      "prediction_stability": 1.0,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "RISK VELOCITY INCREASING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 100.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "BALANCED",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 5.0,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "SYNCED",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696865.8248384,
+    "elapsed_sec": 3.5974693298339844
+  },
+  {
+    "telemetry": {
+      "cpu_util": 0.0,
+      "gpu_util": 45.0,
+      "mem_util": 76.8,
+      "cpu_temp": 39.6,
+      "gpu_temp": 58.0,
+      "disk_io": 0.0,
+      "network_io": 0.0,
+      "power_draw": 21.44,
+      "battery": 98.0
+    },
+    "risk_score": 0.341332910656929,
+    "target_rpm": 1853.3322766423225,
+    "actual_rpm": 1853.3322766423225,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.0951395034790039,
+      "telemetry_lag_sec": 0.0951395034790039,
+      "memory_growth_bytes": 243654656,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.6,
+      "smoothed_risk": 0.319,
+      "risk_velocity": 0.0,
+      "thermal_acceleration": -2.1966,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 1.0,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 0.319,
+      "forecast_60s": 0.319,
+      "forecast_120s": 0.319,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 100.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 4.9,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696865.9241192,
+    "elapsed_sec": 3.6967501640319824
+  },
+  {
+    "telemetry": {
+      "cpu_util": 0.0,
+      "gpu_util": 45.0,
+      "mem_util": 76.8,
+      "cpu_temp": 39.4,
+      "gpu_temp": 58.0,
+      "disk_io": 1240073.3944911084,
+      "network_io": 0.0,
+      "power_draw": 21.44,
+      "battery": 98.0
+    },
+    "risk_score": 0.34396534234285353,
+    "target_rpm": 1859.9133558571339,
+    "actual_rpm": 1859.9133558571339,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09680390357971191,
+      "telemetry_lag_sec": 0.09680390357971191,
+      "memory_growth_bytes": 243671040,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "THERMAL SATURATION APPROACHING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.6,
+      "smoothed_risk": 0.334,
+      "risk_velocity": 0.0251,
+      "thermal_acceleration": 0.2392,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 26.5,
+      "prediction_stability": 1.0,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "THERMAL SATURATION APPROACHING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 100.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 4.8,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696866.029019,
+    "elapsed_sec": 3.801650047302246
+  },
+  {
+    "telemetry": {
+      "cpu_util": 0.0,
+      "gpu_util": 45.0,
+      "mem_util": 76.8,
+      "cpu_temp": 39.3,
+      "gpu_temp": 58.0,
+      "disk_io": 0.0,
+      "network_io": 0.0,
+      "power_draw": 21.44,
+      "battery": 98.0
+    },
+    "risk_score": 0.341332910656929,
+    "target_rpm": 1853.3322766423225,
+    "actual_rpm": 1853.3322766423225,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.0922386646270752,
+      "telemetry_lag_sec": 0.0922386646270752,
+      "memory_growth_bytes": 243679232,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.51,
+      "smoothed_risk": 0.338,
+      "risk_velocity": -0.0271,
+      "thermal_acceleration": -0.5363,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.85,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 85.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 4.7,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696866.1262772,
+    "elapsed_sec": 3.8989081382751465
+  },
+  {
+    "telemetry": {
+      "cpu_util": 0.0,
+      "gpu_util": 45.0,
+      "mem_util": 76.8,
+      "cpu_temp": 39.2,
+      "gpu_temp": 58.0,
+      "disk_io": 0.0,
+      "network_io": 32587.155963733454,
+      "power_draw": 21.44,
+      "battery": 98.0
+    },
+    "risk_score": 0.33693851351737975,
+    "target_rpm": 1842.3462837934494,
+    "actual_rpm": 1842.3462837934494,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09605121612548828,
+      "telemetry_lag_sec": 0.09605121612548828,
+      "memory_growth_bytes": 243683328,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.51,
+      "smoothed_risk": 0.337,
+      "risk_velocity": -0.0423,
+      "thermal_acceleration": -0.1468,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.85,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 85.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 4.6,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696866.230139,
+    "elapsed_sec": 4.002769947052002
+  },
+  {
+    "telemetry": {
+      "cpu_util": 0.0,
+      "gpu_util": 45.0,
+      "mem_util": 76.8,
+      "cpu_temp": 39.1,
+      "gpu_temp": 58.0,
+      "disk_io": 0.0,
+      "network_io": 3329.787234008532,
+      "power_draw": 21.44,
+      "battery": 98.0
+    },
+    "risk_score": 0.3373876941204071,
+    "target_rpm": 1843.4692353010178,
+    "actual_rpm": 1843.4692353010178,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09245538711547852,
+      "telemetry_lag_sec": 0.09245538711547852,
+      "memory_growth_bytes": 243687424,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.42,
+      "smoothed_risk": 0.337,
+      "risk_velocity": 0.0046,
+      "thermal_acceleration": 0.4756,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 145.4,
+      "prediction_stability": 0.7,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 0.474,
+      "forecast_60s": 0.611,
+      "forecast_120s": 0.884,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 70.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 4.5,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696866.328685,
+    "elapsed_sec": 4.101315975189209
+  },
+  {
+    "telemetry": {
+      "cpu_util": 0.0,
+      "gpu_util": 45.0,
+      "mem_util": 76.8,
+      "cpu_temp": 39.0,
+      "gpu_temp": 58.0,
+      "disk_io": 0.0,
+      "network_io": 1596.3302752238167,
+      "power_draw": 21.44,
+      "battery": 98.0
+    },
+    "risk_score": 0.3387939316034317,
+    "target_rpm": 1846.9848290085793,
+    "actual_rpm": 1846.9848290085793,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09490323066711426,
+      "telemetry_lag_sec": 0.09490323066711426,
+      "memory_growth_bytes": 243691520,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "THERMAL SATURATION APPROACHING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.42,
+      "smoothed_risk": 0.338,
+      "risk_velocity": 0.0139,
+      "thermal_acceleration": 0.0917,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 47.8,
+      "prediction_stability": 0.7,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 0.754,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "THERMAL SATURATION APPROACHING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 70.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 4.4,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696866.430129,
+    "elapsed_sec": 4.2027599811553955
+  },
+  {
+    "telemetry": {
+      "cpu_util": 82.7,
+      "gpu_util": 45.0,
+      "mem_util": 76.8,
+      "cpu_temp": 41.7,
+      "gpu_temp": 58.0,
+      "disk_io": 0.0,
+      "network_io": 6680.851063890807,
+      "power_draw": 91.73,
+      "battery": 98.0
+    },
+    "risk_score": 0.4591923275470734,
+    "target_rpm": 2147.9808188676834,
+    "actual_rpm": 2147.9808188676834,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.0941169261932373,
+      "telemetry_lag_sec": 0.0941169261932373,
+      "memory_growth_bytes": 243699712,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "PREDICTIVE PRE-COOLING ACTIVE",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.42,
+      "smoothed_risk": 0.389,
+      "risk_velocity": 1.1904,
+      "thermal_acceleration": 11.6332,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 0.5,
+      "prediction_stability": 0.7,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 70.29,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "PREDICTIVE PRE-COOLING ACTIVE",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 70.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 4.3,
+        "adaptive_hold_duration": 30.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696866.5312676,
+    "elapsed_sec": 4.303898572921753
+  },
+  {
+    "telemetry": {
+      "cpu_util": 82.7,
+      "gpu_util": 45.0,
+      "mem_util": 76.8,
+      "cpu_temp": 44.2,
+      "gpu_temp": 58.0,
+      "disk_io": 0.0,
+      "network_io": 4660.550458699419,
+      "power_draw": 91.73,
+      "battery": 98.0
+    },
+    "risk_score": 0.44078354476690296,
+    "target_rpm": 2101.9588619172573,
+    "actual_rpm": 2101.9588619172573,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09364867210388184,
+      "telemetry_lag_sec": 0.09364867210388184,
+      "memory_growth_bytes": 243703808,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.33,
+      "smoothed_risk": 0.406,
+      "risk_velocity": -0.183,
+      "thermal_acceleration": -13.6489,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.55,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 70.29,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 55.00000000000001,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 4.2,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696866.632392,
+    "elapsed_sec": 4.405022859573364
+  },
+  {
+    "telemetry": {
+      "cpu_util": 82.7,
+      "gpu_util": 45.0,
+      "mem_util": 76.8,
+      "cpu_temp": 46.5,
+      "gpu_temp": 58.0,
+      "disk_io": 87148.93617100875,
+      "network_io": 0.0,
+      "power_draw": 91.73,
+      "battery": 98.0
+    },
+    "risk_score": 0.4526906081914902,
+    "target_rpm": 2131.7265204787254,
+    "actual_rpm": 2131.7265204787254,
+    "reactive_rpm": 1900.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09328866004943848,
+      "telemetry_lag_sec": 0.09328866004943848,
+      "memory_growth_bytes": 243703808,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "PREDICTIVE PRE-COOLING ACTIVE",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.24,
+      "smoothed_risk": 0.417,
+      "risk_velocity": 0.1193,
+      "thermal_acceleration": 3.0287,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 4.9,
+      "prediction_stability": 0.4,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 70.29,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "LIGHT_PRODUCTIVITY",
+      "thermal_phase": "INITIAL_RAMP",
+      "thermal_headroom": 37.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "PREDICTIVE PRE-COOLING ACTIVE",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 40.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 4.1,
+        "adaptive_hold_duration": 30.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696866.7316873,
+    "elapsed_sec": 4.5043182373046875
+  },
+  {
+    "telemetry": {
+      "cpu_util": 82.7,
+      "gpu_util": 5.0,
+      "mem_util": 76.8,
+      "cpu_temp": 48.6,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 1089.7435897375922,
+      "power_draw": 90.62,
+      "battery": 98.0
+    },
+    "risk_score": 0.44205221383571625,
+    "target_rpm": 2105.1305345892906,
+    "actual_rpm": 2105.1305345892906,
+    "reactive_rpm": 2000.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09496355056762695,
+      "telemetry_lag_sec": 0.09496355056762695,
+      "memory_growth_bytes": 243712000,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.42,
+      "risk_velocity": -0.0701,
+      "thermal_acceleration": -1.2473,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 69.18,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 35.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.9,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696866.8835225,
+    "elapsed_sec": 4.656153440475464
+  },
+  {
+    "telemetry": {
+      "cpu_util": 82.7,
+      "gpu_util": 5.0,
+      "mem_util": 76.8,
+      "cpu_temp": 50.5,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 299042.5531884339,
+      "power_draw": 90.62,
+      "battery": 98.0
+    },
+    "risk_score": 0.38190886228084564,
+    "target_rpm": 1954.772155702114,
+    "actual_rpm": 1954.772155702114,
+    "reactive_rpm": 2000.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.04469633102416992,
+      "telemetry_lag_sec": 0.04469633102416992,
+      "memory_growth_bytes": 243720192,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.16,
+      "smoothed_risk": 0.414,
+      "risk_velocity": -1.1655,
+      "thermal_acceleration": -21.2281,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.4,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": -1.11,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 35.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 40.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.9,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696866.9351256,
+    "elapsed_sec": 4.707756519317627
+  },
+  {
+    "telemetry": {
+      "cpu_util": 82.7,
+      "gpu_util": 5.0,
+      "mem_util": 76.8,
+      "cpu_temp": 52.3,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 40393.617021645536,
+      "power_draw": 90.62,
+      "battery": 98.0
+    },
+    "risk_score": 0.3994684576869011,
+    "target_rpm": 1998.6711442172527,
+    "actual_rpm": 1998.6711442172527,
+    "reactive_rpm": 2000.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09392738342285156,
+      "telemetry_lag_sec": 0.09392738342285156,
+      "memory_growth_bytes": 243736576,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "RISK VELOCITY INCREASING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.412,
+      "risk_velocity": 0.1801,
+      "thermal_acceleration": 13.7969,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 3.3,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": -1.11,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 35.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "RISK VELOCITY INCREASING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.8,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696867.033647,
+    "elapsed_sec": 4.8062779903411865
+  },
+  {
+    "telemetry": {
+      "cpu_util": 82.7,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 53.9,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 1981.6513761399106,
+      "power_draw": 90.62,
+      "battery": 98.0
+    },
+    "risk_score": 0.43851138501167297,
+    "target_rpm": 2096.2784625291824,
+    "actual_rpm": 2096.2784625291824,
+    "reactive_rpm": 2000.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.0967264175415039,
+      "telemetry_lag_sec": 0.0967264175415039,
+      "memory_growth_bytes": 243736576,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "RISK VELOCITY INCREASING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.16,
+      "smoothed_risk": 0.416,
+      "risk_velocity": 0.3812,
+      "thermal_acceleration": 1.9644,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 1.5,
+      "prediction_stability": 0.4,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": -1.11,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 35.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "RISK VELOCITY INCREASING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 40.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.7,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696867.135064,
+    "elapsed_sec": 4.9076948165893555
+  },
+  {
+    "telemetry": {
+      "cpu_util": 82.7,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 55.4,
+      "gpu_temp": 60.0,
+      "disk_io": 305021.27659853065,
+      "network_io": 27308.510638547297,
+      "power_draw": 90.62,
+      "battery": 98.0
+    },
+    "risk_score": 0.4316949754834175,
+    "target_rpm": 2079.237438708544,
+    "actual_rpm": 2079.237438708544,
+    "reactive_rpm": 2020.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09547233581542969,
+      "telemetry_lag_sec": 0.09547233581542969,
+      "memory_growth_bytes": 243736576,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.418,
+      "risk_velocity": -0.0674,
+      "thermal_acceleration": -4.4346,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 35.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.6,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696867.2362258,
+    "elapsed_sec": 5.008856773376465
+  },
+  {
+    "telemetry": {
+      "cpu_util": 82.7,
+      "gpu_util": 5.0,
+      "mem_util": 76.8,
+      "cpu_temp": 56.8,
+      "gpu_temp": 60.0,
+      "disk_io": 707490.9090871654,
+      "network_io": 14663.63636355877,
+      "power_draw": 90.62,
+      "battery": 98.0
+    },
+    "risk_score": 0.43796501903533935,
+    "target_rpm": 2094.9125475883484,
+    "actual_rpm": 2094.9125475883484,
+    "reactive_rpm": 2090.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09458327293395996,
+      "telemetry_lag_sec": 0.09458327293395996,
+      "memory_growth_bytes": 243761152,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "THERMAL SATURATION APPROACHING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.04,
+      "smoothed_risk": 0.419,
+      "risk_velocity": 0.0615,
+      "thermal_acceleration": 1.264,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 9.5,
+      "prediction_stability": 0.1,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 35.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "THERMAL SATURATION APPROACHING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 10.000000000000009,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.5,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696867.338184,
+    "elapsed_sec": 5.110815048217773
+  },
+  {
+    "telemetry": {
+      "cpu_util": 82.7,
+      "gpu_util": 5.0,
+      "mem_util": 76.8,
+      "cpu_temp": 58.1,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 34129.03225778682,
+      "power_draw": 90.62,
+      "battery": 98.0
+    },
+    "risk_score": 0.4231236189484596,
+    "target_rpm": 2057.809047371149,
+    "actual_rpm": 2057.809047371149,
+    "reactive_rpm": 2155.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09318780899047852,
+      "telemetry_lag_sec": 0.09318780899047852,
+      "memory_growth_bytes": 243761152,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.04,
+      "smoothed_risk": 0.419,
+      "risk_velocity": -0.148,
+      "thermal_acceleration": -2.0894,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.1,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 35.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 10.000000000000009,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.4,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696867.4384565,
+    "elapsed_sec": 5.211087465286255
+  },
+  {
+    "telemetry": {
+      "cpu_util": 94.9,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 59.7,
+      "gpu_temp": 60.0,
+      "disk_io": 297890.9090942588,
+      "network_io": 4236.363636411273,
+      "power_draw": 100.99,
+      "battery": 98.0
+    },
+    "risk_score": 0.45099391952753065,
+    "target_rpm": 2127.4847988188267,
+    "actual_rpm": 2127.4847988188267,
+    "reactive_rpm": 2235.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09346818923950195,
+      "telemetry_lag_sec": 0.09346818923950195,
+      "memory_growth_bytes": 243761152,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "RISK VELOCITY INCREASING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.04,
+      "smoothed_risk": 0.42,
+      "risk_velocity": 0.2769,
+      "thermal_acceleration": 4.2224,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 2.1,
+      "prediction_stability": 0.1,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 10.37,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 35.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "RISK VELOCITY INCREASING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 10.000000000000009,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.3,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696867.5390959,
+    "elapsed_sec": 5.311726808547974
+  },
+  {
+    "telemetry": {
+      "cpu_util": 94.9,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 61.1,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 21322.580644987796,
+      "power_draw": 100.99,
+      "battery": 98.0
+    },
+    "risk_score": 0.46215517238378523,
+    "target_rpm": 2155.387930959463,
+    "actual_rpm": 2155.387930959463,
+    "reactive_rpm": 2305.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09371542930603027,
+      "telemetry_lag_sec": 0.09371542930603027,
+      "memory_growth_bytes": 243769344,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "RISK VELOCITY INCREASING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.424,
+      "risk_velocity": 0.1115,
+      "thermal_acceleration": -1.6526,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 5.2,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 10.37,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 33.9,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "RISK VELOCITY INCREASING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.2,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696867.639209,
+    "elapsed_sec": 5.411839962005615
+  },
+  {
+    "telemetry": {
+      "cpu_util": 94.9,
+      "gpu_util": 5.0,
+      "mem_util": 76.8,
+      "cpu_temp": 62.5,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 3272.727272709955,
+      "power_draw": 100.99,
+      "battery": 98.0
+    },
+    "risk_score": 0.4656448604226112,
+    "target_rpm": 2164.112151056528,
+    "actual_rpm": 2164.112151056528,
+    "reactive_rpm": 2375.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09481978416442871,
+      "telemetry_lag_sec": 0.09481978416442871,
+      "memory_growth_bytes": 243773440,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "THERMAL SATURATION APPROACHING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.429,
+      "risk_velocity": 0.0353,
+      "thermal_acceleration": -0.7708,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 16.2,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 10.37,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 32.5,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "THERMAL SATURATION APPROACHING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.1,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696867.7380428,
+    "elapsed_sec": 5.510673761367798
+  },
+  {
+    "telemetry": {
+      "cpu_util": 94.9,
+      "gpu_util": 5.0,
+      "mem_util": 76.8,
+      "cpu_temp": 63.7,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 179425.53191653243,
+      "power_draw": 100.99,
+      "battery": 98.0
+    },
+    "risk_score": 0.4554663018941879,
+    "target_rpm": 2138.66575473547,
+    "actual_rpm": 2138.66575473547,
+    "reactive_rpm": 2435.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09642314910888672,
+      "telemetry_lag_sec": 0.09642314910888672,
+      "memory_growth_bytes": 243777536,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.431,
+      "risk_velocity": -0.0979,
+      "thermal_acceleration": -1.2815,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 10.37,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 31.299999999999997,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 3.0,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696867.8420002,
+    "elapsed_sec": 5.614631175994873
+  },
+  {
+    "telemetry": {
+      "cpu_util": 94.9,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 64.8,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 3479.532163737064,
+      "power_draw": 100.95,
+      "battery": 98.0
+    },
+    "risk_score": 0.4632015021204948,
+    "target_rpm": 2158.003755301237,
+    "actual_rpm": 2158.003755301237,
+    "reactive_rpm": 2490.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09333324432373047,
+      "telemetry_lag_sec": 0.09333324432373047,
+      "memory_growth_bytes": 243785728,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "THERMAL SATURATION APPROACHING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.04,
+      "smoothed_risk": 0.433,
+      "risk_velocity": 0.0472,
+      "thermal_acceleration": 0.886,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 12.0,
+      "prediction_stability": 0.1,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": -0.04,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 30.200000000000003,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "THERMAL SATURATION APPROACHING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 10.000000000000009,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 2.8,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696868.0058117,
+    "elapsed_sec": 5.778442621231079
+  },
+  {
+    "telemetry": {
+      "cpu_util": 94.9,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 65.9,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 0.0,
+      "power_draw": 100.95,
+      "battery": 98.0
+    },
+    "risk_score": 0.46784610465765,
+    "target_rpm": 2169.615261644125,
+    "actual_rpm": 2169.615261644125,
+    "reactive_rpm": 2545.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.03125905990600586,
+      "telemetry_lag_sec": 0.03125905990600586,
+      "memory_growth_bytes": 243806208,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "RISK VELOCITY INCREASING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.436,
+      "risk_velocity": 0.117,
+      "thermal_acceleration": 1.7566,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 4.8,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": -0.04,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 29.099999999999994,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "RISK VELOCITY INCREASING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 2.8,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696868.0455196,
+    "elapsed_sec": 5.818150520324707
+  },
+  {
+    "telemetry": {
+      "cpu_util": 94.9,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 66.8,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 1473.1182795579064,
+      "power_draw": 100.95,
+      "battery": 98.0
+    },
+    "risk_score": 0.4629925580382347,
+    "target_rpm": 2157.481395095587,
+    "actual_rpm": 2157.481395095587,
+    "reactive_rpm": 2590.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09264492988586426,
+      "telemetry_lag_sec": 0.09264492988586426,
+      "memory_growth_bytes": 243810304,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.439,
+      "risk_velocity": -0.0486,
+      "thermal_acceleration": -1.6565,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": -0.04,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 28.200000000000003,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 2.7,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696868.145452,
+    "elapsed_sec": 5.91808295249939
+  },
+  {
+    "telemetry": {
+      "cpu_util": 94.9,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 67.7,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 609.090909087686,
+      "power_draw": 100.95,
+      "battery": 98.0
+    },
+    "risk_score": 0.4668646173238754,
+    "target_rpm": 2167.1615433096886,
+    "actual_rpm": 2167.1615433096886,
+    "reactive_rpm": 2635.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09334158897399902,
+      "telemetry_lag_sec": 0.09334158897399902,
+      "memory_growth_bytes": 243810304,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "THERMAL SATURATION APPROACHING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.442,
+      "risk_velocity": 0.0385,
+      "thermal_acceleration": 0.8663,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 14.5,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": -0.04,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 27.299999999999997,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "THERMAL SATURATION APPROACHING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 2.6,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696868.2467678,
+    "elapsed_sec": 6.0193986892700195
+  },
+  {
+    "telemetry": {
+      "cpu_util": 94.9,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 68.5,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 10255.31914902984,
+      "power_draw": 100.95,
+      "battery": 98.0
+    },
+    "risk_score": 0.46955301777124403,
+    "target_rpm": 2173.88254442811,
+    "actual_rpm": 2173.88254442811,
+    "reactive_rpm": 2675.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09336018562316895,
+      "telemetry_lag_sec": 0.09336018562316895,
+      "memory_growth_bytes": 243826688,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "THERMAL SATURATION APPROACHING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.16,
+      "smoothed_risk": 0.446,
+      "risk_velocity": 0.027,
+      "thermal_acceleration": -0.1156,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 20.5,
+      "prediction_stability": 0.4,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 26.5,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "THERMAL SATURATION APPROACHING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 40.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 2.5,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696868.345499,
+    "elapsed_sec": 6.1181299686431885
+  },
+  {
+    "telemetry": {
+      "cpu_util": 94.9,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 69.3,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 2651.3761467797876,
+      "power_draw": 100.95,
+      "battery": 98.0
+    },
+    "risk_score": 0.4632015021204948,
+    "target_rpm": 2158.003755301237,
+    "actual_rpm": 2158.003755301237,
+    "reactive_rpm": 2715.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09440207481384277,
+      "telemetry_lag_sec": 0.09440207481384277,
+      "memory_growth_bytes": 243830784,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.448,
+      "risk_velocity": -0.0626,
+      "thermal_acceleration": -0.8834,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.0,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 25.700000000000003,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 2.4,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696868.4469504,
+    "elapsed_sec": 6.219581365585327
+  },
+  {
+    "telemetry": {
+      "cpu_util": 95.8,
+      "gpu_util": 5.0,
+      "mem_util": 76.9,
+      "cpu_temp": 70.0,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 0.0,
+      "power_draw": 101.71,
+      "battery": 98.0
+    },
+    "risk_score": 0.4689577456831932,
+    "target_rpm": 2172.394364207983,
+    "actual_rpm": 2172.394364207983,
+    "reactive_rpm": 2750.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09381413459777832,
+      "telemetry_lag_sec": 0.09381413459777832,
+      "memory_growth_bytes": 243843072,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "THERMAL SATURATION APPROACHING",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.04,
+      "smoothed_risk": 0.449,
+      "risk_velocity": 0.0576,
+      "thermal_acceleration": 1.2024,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 9.6,
+      "prediction_stability": 0.1,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.76,
+      "forecast_30s": 1.0,
+      "forecast_60s": 1.0,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 25.0,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "THERMAL SATURATION APPROACHING",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 10.000000000000009,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 2.3,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696868.5469124,
+    "elapsed_sec": 6.319543361663818
+  },
+  {
+    "telemetry": {
+      "cpu_util": 95.8,
+      "gpu_util": 5.0,
+      "mem_util": 76.8,
+      "cpu_temp": 70.6,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 3082.5688073287497,
+      "power_draw": 101.71,
+      "battery": 98.0
+    },
+    "risk_score": 0.46699486042261124,
+    "target_rpm": 2167.487151056528,
+    "actual_rpm": 2167.487151056528,
+    "reactive_rpm": 2779.9999999999995,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09514474868774414,
+      "telemetry_lag_sec": 0.09514474868774414,
+      "memory_growth_bytes": 243847168,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.04,
+      "smoothed_risk": 0.449,
+      "risk_velocity": -0.0191,
+      "thermal_acceleration": -0.7463,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.1,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.76,
+      "forecast_30s": 0.0,
+      "forecast_60s": 0.0,
+      "forecast_120s": 0.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 24.400000000000006,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 10.000000000000009,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 2.2,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696868.6496649,
+    "elapsed_sec": 6.422295808792114
+  },
+  {
+    "telemetry": {
+      "cpu_util": 95.8,
+      "gpu_util": 5.0,
+      "mem_util": 76.8,
+      "cpu_temp": 71.3,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 1989.3617021073337,
+      "power_draw": 101.71,
+      "battery": 98.0
+    },
+    "risk_score": 0.4667859163403511,
+    "target_rpm": 2166.9647908508778,
+    "actual_rpm": 2166.9647908508778,
+    "reactive_rpm": 2815.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09334540367126465,
+      "telemetry_lag_sec": 0.09334540367126465,
+      "memory_growth_bytes": 243847168,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.1,
+      "smoothed_risk": 0.451,
+      "risk_velocity": -0.0021,
+      "thermal_acceleration": 0.169,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": -1.0,
+      "prediction_stability": 0.25,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.76,
+      "forecast_30s": 0.389,
+      "forecast_60s": 0.327,
+      "forecast_120s": 0.202,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 23.700000000000003,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 25.0,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 2.1,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696868.750402,
+    "elapsed_sec": 6.523032903671265
+  },
+  {
+    "telemetry": {
+      "cpu_util": 95.8,
+      "gpu_util": 5.0,
+      "mem_util": 76.8,
+      "cpu_temp": 71.8,
+      "gpu_temp": 60.0,
+      "disk_io": 0.0,
+      "network_io": 6018.348623932755,
+      "power_draw": 101.71,
+      "battery": 98.0
+    },
+    "risk_score": 0.46727385486364365,
+    "target_rpm": 2168.184637159109,
+    "actual_rpm": 2168.184637159109,
+    "reactive_rpm": 2840.0,
+    "health": {
+      "status": "FAILSAFE",
+      "inference_lag_sec": 0.09357428550720215,
+      "telemetry_lag_sec": 0.09357428550720215,
+      "memory_growth_bytes": 243855360,
+      "issues": [
+        "Memory growth detected"
+      ]
+    },
+    "current_lead_time_sec": 0.0,
+    "thermal_mode": "BALANCED",
+    "events": [
+      {
+        "time": "00:23:55",
+        "source": "SYS",
+        "category": "HEALTHY",
+        "message": "THERVO Core Ready"
+      },
+      {
+        "time": "00:24:10",
+        "source": "SENS",
+        "category": "HEALTHY",
+        "message": "WMI Telemetry Synced"
+      },
+      {
+        "time": "00:24:20",
+        "source": "CORE_AI",
+        "category": "ACTION",
+        "message": "Initialized Quiet Mode"
+      }
+    ],
+    "diagnostics": {
+      "active_mode": "BALANCED",
+      "semantic_status": "MODE: BALANCED",
+      "telemetry_hz": 4,
+      "adaptive_ema_alpha": 0.04,
+      "smoothed_risk": 0.452,
+      "risk_velocity": 0.0048,
+      "thermal_acceleration": 0.0678,
+      "cooling_effectiveness_score": 1.0,
+      "saturation_eta_seconds": 114.1,
+      "prediction_stability": 0.1,
+      "thermal_soak_accumulation": 0.0,
+      "gpu_power_transient_score": 0.76,
+      "forecast_30s": 0.596,
+      "forecast_60s": 0.74,
+      "forecast_120s": 1.0,
+      "workload_fingerprint": "CPU_COMPILE",
+      "thermal_phase": "SUSTAINED_LOAD",
+      "thermal_headroom": 23.200000000000003,
+      "predictive_cooling_window": "NONE",
+      "escalation_reason": "MODE: BALANCED",
+      "idle_clamp_active": false,
+      "transition_intelligence_score": 10.000000000000009,
+      "acoustic_optimization_active": false,
+      "hardware_controller": {
+        "desired_mode": "PERFORMANCE",
+        "actual_hardware_mode": "BALANCED",
+        "last_transition_reason": "HEALTH_FAILSAFE",
+        "transition_lock_timer": 0.0,
+        "transition_cooldown_timer": 2.0,
+        "adaptive_hold_duration": 20.0,
+        "hardware_sync_status": "PENDING",
+        "rejected_transitions": 0,
+        "llt_response_status": "OK"
+      }
+    },
+    "timestamp": 1785696868.8519247,
+    "elapsed_sec": 6.624555587768555
+  }
+]

@@ -1,0 +1,45 @@
+cooling-system/
+│
+├── requirements.txt              ← Runtime & Training dependencies
+├── README.md
+│
+├── src/                          ← PRODUCTION RUNTIME
+│   ├── core/                     ← Core logic
+│   ├── features.py               ← FeatureProcessor: single source of truth for all feature logic
+│   ├── inference.py              ← InferenceEngine: live prediction loop
+│   ├── preprocess.py             ← Preprocessing pipeline (training-time data prep)
+│   └── telemetry_logger.py       ← Telemetry collector (psutil + nvidia-smi)
+│
+├── training/                     ← TRAINING PIPELINE — never deployed to runtime
+│   ├── data_processing.py        ← Data processing for training
+│   ├── gnn_model.py              ← GNN model definition
+│   ├── inference_pipeline.py     ← End-to-end training validation (not production inference)
+│   ├── xgboost_model.py          ← ThermalRiskXGB trainer
+│   └── research/
+│       └── gnn_model.py          ← Experimental GNN model
+│
+├── models/
+│   ├── cooling_model.pkl         ← Trained XGBoost model
+│   └── preprocessor_state.pkl    ← FeatureProcessor log-scaling bounds
+│
+├── data/
+│   ├── raw/                      ← Original telemetry CSV logs
+│   ├── processed/                ← Cleaned dataset, X (features), and y (labels)
+│   └── inference_logs.csv        ← Written by inference.py at runtime (optional)
+│
+├── scripts/
+│   ├── create_mock_model.py
+│   ├── freeze_dataset.py
+│   ├── generate_test_data.py
+│   ├── merge_datasets.py
+│   ├── normalize_metadata.py
+│   └── workload_generator.py
+│
+└── docs/
+    ├── Cooling project PRD and FRD.docx
+    ├── Master_Execution_Plan_PRD_Style.docx
+    ├── Structure-of-the-Directory.txt
+    ├── TELEMETRY_README.md
+    ├── UNIFIED_PREPROCESSING.md
+    ├── master_execution_plan_v2.docx
+    └── phase0_report.md
